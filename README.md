@@ -1,51 +1,55 @@
-# Alura - Imersão back-end
+# Instabytes - Frontend
+InstaBytes é uma aplicação web desenvolvida durante um curso intensivo da Alura, em colaboração com o Google Gemini. A ferramenta tem como principal funcionalidade permitir que os usuários enviem fotos e, com o auxílio da inteligência artificial, gerar automaticamente descrições detalhadas e informativas para essas imagens.
 
-Este é o repositório do front-end do projeto.
+![tela Instabytes](https://github.com/DeyvissonRobert/Instabytes-Back/blob/main/uploads/InstaBytes.png)
 
-**IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
+## Tecnologias Utilizadas
+* HTML
+* CSS
+* JavaScript
+* Google Gemini
 
-## PASSO 1: Baixe o código do projeto:
+## Instalação
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/DeyvissonRobert/Instabytes-Front.git
 
-### Opção 1 - Clonando o repositório para o seu perfil no GitHub
+2. Naveque até a pasta do projeto: 
+    ```sh
+    cd Instabytes-Front
 
-> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
+3. Instale as dependências 
+    ```sh
+    npm install
 
-1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
-2. Faça o **clone** do repositório para seu computador:
-  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
-  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
-  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
+## Uso
 
-### Opção 2 - Baixando um arquivo .zip
+1. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
 
-1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
-2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
-3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
+2. O servidor estará disponível em http://localhost:8000.
+
+## Funcionalidades
+### Home
+* Google Gemini: gera descrições automáticas para imagens com inteligência artificial.
+* Gerenciamento de fotos: salva, atualiza e exibe arquivos no frontend.
+* Conexão com o backend: realiza operações através de chamadas à API.
+* Responsividade: interface adaptável para dispositivos móveis e desktops.
+
+## API Back-End
+O link para o repositório do back-end pode ser encontrado  <a href="https://github.com/DeyvissonRobert/zoo-capivaras-backend" > aqui </a>.
+
+## Estrutura do Projeto
+```sh
+   /
+├── assets/            # Recursos estáticos (imagens, ícones, etc.)
+├── photos/            # Diretório para armazenamento de fotos
+├── .gitignore         # Arquivos e pastas ignorados pelo Git
+├── README.md          # Documentação do projeto
+├── index.html         # Página inicial do projeto
+├── package.json       # Dependências do projeto e scripts
 
 
-## PASSO 2: Instale o projeto:
 
-### Opção 1 - Utilizando o terminal do Visual Studio Code
 
-1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
-2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
-3. Execute o comando `npm install` e aguarde a finalização.
-
-### Opção 2 - Utilizando outros terminais
-
-1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
-2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
-
-## PASSO 3: Execute o projeto para subir o servidor local:
-
-Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
-
-```
-> dev
-> npx parcel --port 8000 index.html
-
-Server running at http://localhost:8000
-✨ Built in xxxms
-```
-
-O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
