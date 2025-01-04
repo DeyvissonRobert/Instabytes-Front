@@ -37,7 +37,7 @@ InstaBytes é uma aplicação web desenvolvida durante um curso intensivo da Alu
 * Responsividade: interface adaptável para dispositivos móveis e desktops.
 
 ## API Back-End
-O link para o repositório do back-end pode ser encontrado  <a href="https://github.com/DeyvissonRobert/zoo-capivaras-backend" > aqui </a>.
+O link para o repositório do back-end pode ser encontrado  <a href="https://github.com/DeyvissonRobert/Instabytes-Back" > aqui </a>.
 
 ## Estrutura do Projeto
 ```sh
