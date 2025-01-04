@@ -31,7 +31,6 @@ InstaBytes é uma aplicação web desenvolvida durante um curso intensivo da Alu
 2. O servidor estará disponível em http://localhost:8000.
 
 ## Funcionalidades
-### Home
 * Google Gemini: gera descrições automáticas para imagens com inteligência artificial.
 * Gerenciamento de fotos: salva, atualiza e exibe arquivos no frontend.
 * Conexão com o backend: realiza operações através de chamadas à API.
