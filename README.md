@@ -49,6 +49,3 @@ O link para o repositório do back-end pode ser encontrado  <a href="https://git
 ├── index.html         # Página inicial do projeto
 ├── package.json       # Dependências do projeto e scripts
 
-
-
-
